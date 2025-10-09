@@ -4,20 +4,25 @@ plugins {
 
 repositories {
     flatDir {
-        dirs 'IasrRoot/lib', 'IasrRoot/lib/ExtJars'
+        dirs "${System.getProperty('user.home')}/IasRoot/lib", "${System.getProperty('user.home')}/IasRoot/lib/ExtLibs"
     }
 }
 
 dependencies {
     // Replace 'your-jar-name' with the actual names of the JARs (without .jar extension)
-    implementation name: 'your-jar-name-1'
-    implementation name: 'your-jar-name-2'
+    implementation name: 'iasPlugin'
+    implementation name: 'iasHeartbeat'
+    implementation name: 'iasCdb'
+    implementation name: 'iasKafkaUtils'
+    implementation name: 'hibernate-jpa-2.1-api-1.0.0.Final'
+    implementation name: 'jackson-annotations-2.17.0'
+    implementation name: 'slf4j-api-2.0.9'
     // Add more as needed
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
 tasks.withType(JavaCompile) {
