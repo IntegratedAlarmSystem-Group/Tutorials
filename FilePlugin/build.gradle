@@ -17,6 +17,8 @@ dependencies {
     implementation name: 'hibernate-jpa-2.1-api-1.0.0.Final'
     implementation name: 'jackson-annotations-2.17.0'
     implementation name: 'slf4j-api-2.0.9'
+    implementation name: 'logback-classic-1.4.11'
+    implementation name: 'logback-core-1.4.11'
     // Add more as needed
 }
 

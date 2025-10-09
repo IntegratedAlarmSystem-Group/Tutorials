@@ -5,7 +5,7 @@
 	"sinkPort":"9092",
 	"props": [],
 	"values":[
-		{"id":"Temperature",
+		{"id":"Temperature-id",
 		"refreshTime":"5000",
 		"filter":"",
 		"filterOptions":""}]
