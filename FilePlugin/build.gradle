@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    flatDir {
+        dirs 'IasrRoot/lib', 'IasrRoot/lib/ExtJars'
+    }
+}
+
+dependencies {
+    // Replace 'your-jar-name' with the actual names of the JARs (without .jar extension)
+    implementation name: 'your-jar-name-1'
+    implementation name: 'your-jar-name-2'
+    // Add more as needed
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
