@@ -1,0 +1,12 @@
+{ 
+	"id":"TutorialFilePlugin",
+	"monitoredSystemId":"TutorialSystem",
+	"sinkServer":"localhost",
+	"sinkPort":"9092",
+	"props": [],
+	"values":[
+		{"id":"Temperature",
+		"refreshTime":"5000",
+		"filter":"",
+		"filterOptions":""}]
+}
