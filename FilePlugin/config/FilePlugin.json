@@ -1,11 +1,11 @@
 { 
 	"id":"TutorialFilePlugin",
-	"monitoredSystemId":"TutorialSystem",
+	"monitoredSystemId":"Fridge",
 	"sinkServer":"localhost",
 	"sinkPort":"9092",
 	"props": [],
 	"values":[
-		{"id":"FridgeTemperature",
+		{"id":"InnerTemperature",
 		"refreshTime":"5000",
 		"filter":"",
 		"filterOptions":""}]

@@ -26,7 +26,7 @@ public class FilePlugin extends Plugin {
   private final String filePath;
 
   // The identifier of the value (temperature) to send to the IAS
-  private final String valueId="FridgeTemperature";
+  private final String valueId="InnerTemperature";
 
   /**
 	 * The logger
