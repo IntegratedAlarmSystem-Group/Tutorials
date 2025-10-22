@@ -1,0 +1,8 @@
+---
+- id: "InnerTemperature"
+  shortDesc: "Inner temperature of the fridge"
+  iasType: "DOUBLE"
+- id: "HighTempAlarm"
+  shortDesc: "The temperature of the fridge is too high"
+  iasType: "ALARM"
+

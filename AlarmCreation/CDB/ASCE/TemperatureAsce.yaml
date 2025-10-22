@@ -1,0 +1,9 @@
+---
+id: "TemperatureAsce"
+inputIDs: [ "InnerTemperature" ]
+dasuID: "TemperatureDasu"
+outputID: "HighTempAlarm"
+transferFunctionID: "org.eso.ias.asce.transfer.impls.MinMaxThresholdTF"
+props:
+- name: "org.eso.ias.tf.minmaxthreshold.highOn"
+  value: "10"

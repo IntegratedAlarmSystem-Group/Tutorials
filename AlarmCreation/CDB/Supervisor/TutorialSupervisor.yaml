@@ -1,0 +1,6 @@
+---
+id: "TutorialSupervisor"
+hostName: "host.name.org"
+logLevel: "INFO"
+dasusToDeploy: 
+- dasuId: "TemperatureDasu"
